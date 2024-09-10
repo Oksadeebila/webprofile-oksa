@@ -1,0 +1,242 @@
+html, *, body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: #f7faff;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.sora {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.sora-light {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 233;
+    font-style: normal;
+}
+
+.blue-sd {
+    background-color: #D1E2FF;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 40%;
+    list-style-type: none;
+    background-color: white;
+    box-shadow: 3px 7px 12px #e8f0ff;
+    position: fixed;
+}
+
+ul li a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover, .card-content a {
+    color: #3A38FF;
+    font-weight: 700;
+}
+
+section {
+    flex-direction: row;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.home-container {
+    display:grid;
+    grid-template-columns: 70% 30%;
+    margin: 7rem 1rem 0rem 1rem;
+    padding: 2rem;
+}
+
+.pict1 img {
+    width: 247px;
+    height: 247px;
+    background-color: grey;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.pict-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    padding: .7rem 1.4rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #d1e2ff;
+    color: #3A38FF;
+    font-weight: 600;
+}
+
+.text-secton-container {
+   display: flex;
+   flex-direction: column;
+   padding-top: 1rem;
+}
+
+.text-secton-container h1 {
+    font-size: 78px;
+}
+
+.text-me {
+    font-size: 35px;
+}
+
+.text-me2 {
+    font-size: 26px;
+}
+
+.text-secton-container p {
+    font-size: 28px;
+}
+
+.me-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 3rem;
+}
+
+.me-container-right {
+    padding: 4rem 1rem 0rem 3rem;
+    margin-top: 2rem;
+}
+
+.me-container-right a, .card-content a {
+    text-decoration: none;
+}
+
+.me-container-left {
+    padding: 1.7rem 1rem 1rem 0rem;
+    margin-top: 2rem;
+}
+
+.pict-me {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.pict-me img {
+    width: 90%;
+}
+
+.portofolio-page {
+    margin-top: 3rem;
+}
+.portofolio-page-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 4.6rem;
+}
+
+.portofolio-page-grid {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.portofolio-page-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.portofolio-card {
+    width: 333px;
+    height: 348px;
+    padding: .8rem;
+    border-radius: 27px;
+    box-shadow: 6px 6px 22px rgb(139, 139, 140);
+}
+
+.portfolio-card-inside {
+    background-color: none;
+}
+
+.portfolio-card-inside img {
+    width : 306px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.fw-22 {
+    font-weight: 22px;
+}
+
+.card-button, .card-content a {
+    background-color: #d1e2ff;
+    border : none;
+    width: 100%;
+    height: 37px;
+    border-radius: 50px;
+    color: #3A38FF;
+}
+
+.social-media img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    
+}
+.social-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 3rem;
+    margin: 5rem 3rem;
+    gap: 3rem;
+    width: fit-content;
+   border-radius: 30px;
+    box-shadow: 2px 2px 49px rgb(186, 192, 200);
+}
+
+.social-container, .social-container-left, .social-container-left p, .social-container-right, .social-media a, .social-media a img{
+    background-color: #d1e2ff;
+}
+.social-container-left, .social-container-right {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.5rem;
+    background-color: #d1e2ff;
+}
+
+
