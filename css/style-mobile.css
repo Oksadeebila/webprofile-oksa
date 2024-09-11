@@ -1,0 +1,9 @@
+/* mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+      background-color: #de3163;
+      height: 100vh;
+      width:fit-content;
+    }
+  }
+  
