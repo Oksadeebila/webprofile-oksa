@@ -1,6 +1,10 @@
 /* mobile */
 @media (min-width: 320px) and (max-width: 480px) {
     body {
+<<<<<<< HEAD
+=======
+      height: 100vh;
+>>>>>>> f5c0bfadd1368fdbdae80840e5f89e8470e00559
       width:fit-content;
     }
 
