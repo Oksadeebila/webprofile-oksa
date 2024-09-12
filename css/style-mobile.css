@@ -1,9 +1,30 @@
 /* mobile */
 @media (min-width: 320px) and (max-width: 480px) {
     body {
-      background-color: #de3163;
-      height: 100vh;
       width:fit-content;
     }
+
+    ul {
+        width: 80%;
+        padding: 1.4rem;
+        font-size: 26px;
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .text-secton-container {
+      display : flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn-infos {
+      padding-left: 30rem;
+    }
+
   }
   
